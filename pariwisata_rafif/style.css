@@ -1,0 +1,258 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(10, 100, 255);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+}
+
+#beranda, #tempat-wisata, #fasilitas, #galeri, #kontak {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    transition: box-shadow 0.3s, transform 0.3s;
+    transform-origin: center bottom;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card-info h3, .card-info p {
+    color: rgb(255, 255, 255);
+    background-color: rgba(145, 215, 231, 0.194);
+    margin: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+
+
+
+#kontak {
+    padding: 20px;
+    background-color: #0056b3;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    color: rgb(0, 0, 0); 
+    border-radius: 20px; 
+}
+
+#kontak form {
+    max-width: 400px;
+    margin: auto;
+}
+
+#kontak label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+#kontak input,
+#kontak textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+#kontak button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#kontak button:hover {
+    background-color: #555;
+}
+
+
+
+
+
+footer {
+    background-color: rgb(10, 100, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+#signature-pesona-bali {
+    padding: 20px;
+    background-color: #19b5d8;
+    border-radius: 20px;
+}
+
+#signature-pesona-bali h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+#signature-pesona-bali p {
+    color: #555;
+}
+
+#signature-pesona-bali ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+#signature-pesona-bali li {
+    margin-bottom: 10px;
+}
+
+#signature-pesona-bali a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#signature-pesona-bali a:hover {
+    color: #0056b3; 
+}
+
+
+#fasility {
+    margin: 20px;
+}
+
+.facility {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.facility img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 8px; 
+    margin-right: 20px;
+}
+
+.facility-info {
+    flex: 1;
+}
+
+
+
+#fasility {
+    margin: 20px;
+    background-image: url('ulun.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    border-radius: 10px; 
+    color: #fff; 
+}
+
+.facility {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgba(0, 119, 255, 0.8); 
+    border-radius: 8px; 
+    overflow: hidden; 
+}
+
+
+
+.facility-info {
+    flex: 1;
+}
+
+
+
+
